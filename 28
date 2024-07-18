@@ -1,0 +1,14 @@
+from abc import ABC ,abstactmethod
+class Animal(ABC):
+  def __init__(self,animal):
+     self.animal=animal
+
+  def move (self):
+     pass
+class Dog(Animal):
+  def move (self):
+      print(f'{self.animal}')
+
+dog=Dog('Dog')
+dog.move()
+      
