@@ -1,0 +1,6 @@
+def fanc1():
+   print()
+print('salam')
+fanc1()
+fanc1()
+print('khodafezz')
